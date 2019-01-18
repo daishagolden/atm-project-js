@@ -1,0 +1,332 @@
+body{
+    background-color: rgb(124, 4, 4);
+}
+/* headers */
+
+h1 {
+    color:white;
+    margin-left: 440px;
+    font-weight: bold;
+   
+}
+/* shaded background colors */
+
+.middle-color{
+    background-color: rgb(197, 23, 23);
+    width: 1125px;
+    height: 560px;
+    margin-left: 80px;  
+}
+
+.homescreen{
+    position: absolute;
+    height: 450px;
+    width: 650px;
+    margin-right: 300px;
+    margin-left: 150px;
+    margin-top: 90px;
+    background-color: black;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+/* pincode section */
+.homescreen input{
+    background-color:black;
+    border: black;
+    margin-left: 140px;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* positioning languages */
+.english p{
+    font-weight: bold;
+    color: whitesmoke;
+    position: absolute;
+    top: 120px;
+    right: 512px;
+    
+}
+
+.espanol p{
+    font-weight: bold;
+    color: whitesmoke;
+    position: absolute;
+    top: 220px;
+    right: 510px;
+    
+}
+
+.francias p{
+    font-weight: bold;
+    color: whitesmoke;
+    position: absolute;
+    top: 320px;
+    right: 510px;
+    
+}
+
+/* sidebar keys beside mainscreen */
+
+.left1{
+    position: absolute;
+    top: 280px;
+    margin-left: 85px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0 5px #999;
+    width: 50px;
+    height: 20px;
+}
+.left1:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.left2{
+    position: absolute;
+    top: 380px;
+    margin-left: 85px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0 5px #999;
+    width: 50px;
+    height: 20px;
+}
+.left2:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.left3{
+    position: absolute;
+    top: 480px;
+    margin-left:85px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0 5px #999;
+    width: 50px;
+    height: 20px;
+}
+.left3:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.right4{
+    position: absolute;
+    top: 280px;
+    margin-left: 820px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0 5px #999;
+    width: 50px;
+    height: 20px;
+}
+.right4:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.right5{
+    position: absolute;
+    top: 380px;
+    margin-left: 820px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0 5px #999;
+    width: 50px;
+    height: 20px;
+}
+.right5:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.right6{
+    position: absolute;
+    top: 480px;
+    margin-left: 820px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0 5px #999;
+    width: 50px;
+    height: 20px;
+}
+.right6:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* Card slot */
+
+.card-slot{
+    position: absolute;
+    background-color:rgb(27, 26, 26);
+    width: 250px;
+    height: 20px;
+    margin-left: 700px;
+    top: 270px;
+    border-radius: 5px;
+    transform: rotate(90deg);
+}
+.atm-card img{
+    position: absolute;
+    border-radius: 5px;
+    height: 500px;
+    width: 600px;
+    margin-top: 60px;
+    margin-left: 990px;
+    transform: rotate(25deg);
+}
+
+.reciept-pic img{
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    margin-left: 865px;
+    margin-top: 740px;
+    z-index: 1;
+}
+.reciept-slot{
+    position: absolute;
+    background-color:rgb(27, 26, 26);
+    width: 250px;
+    height: 20px;
+    margin-left: 665px;
+    top: 650px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.money-slot{
+    position: absolute;
+    margin-left: 530px;
+    top: 750px;
+    background-color:rgb(27, 26, 26);
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+
+/* forms the background color for keyboard */
+
+.number-keys{
+    background-color:rgb(226, 30, 30);
+    transform: perspective(56px) rotateX(1deg);
+    width: 1225px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    padding: 20px;
+    /* numerical keyboard */
+/* aligns entire board under screen */
+}
+.key{
+    margin-left: 10px;
+    outline: none;
+    color:#fff;
+    background-color: black;
+    border:none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 70px;
+    height: 60px;
+}
+
+/* used to align up the rows with each other underneath main screen */
+.keypad-1{
+    margin-bottom: 20px;
+    margin-left: 250px;
+    
+}
+.keypad-2{
+    margin-bottom: 20px;
+    margin-left: 250px;
+}
+
+.keypad-3{
+    margin-bottom: 20px;
+    margin-left: 250px;
+}
+.keypad-0{
+   margin-bottom: 15px;
+   margin-left: 250px;
+}
+
+/* Enter,Clear,Remove keys */
+.remove{
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    box-shadow: 0 7px #999;
+    width: 100px;
+    height: 60px;
+}
+
+.erase{
+    margin-left: 10px;
+    background-color: yellow;
+    box-shadow: 0 7px #999;
+    outline: none;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 60px;
+}
+
+.send{
+    margin-left: 10px;
+    color: rgb(14, 70, 14);
+    background-color: green;
+    box-shadow: 0 7px #999;
+    outline: none;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 60px;
+}
+
+/* makes keypad keys clickable and 2 dimensional */
+.key:active{
+    background-color: rgb(105, 105, 124);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.remove:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.erase:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.send:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

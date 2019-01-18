@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daisha Fantasy Banking</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>      
+    <h1 id='header'> GOLDEN FANTASY ATM </h1>
+
+    <div class ="middle-color">
+        <div class="homescreen">
+            <div class="english"><p id="choice1">English </p></div>
+            <div class="espanol"><p id="choice2">Espanol</p></div>
+            <div class="francias"><p id="choice3">Francias</p></div>
+        <form>                       
+            <input type="password" id="pincode" size="10" required="required" minlength="4" maxlength="4">
+        </form>
+            <div class="card-slot"></div>
+            <div class="money-slot"></div>
+            <div class="reciept-slot"></div>   
+        </div>
+        <div class= "atm-card">
+            <img src= "img/atmcard.png">
+        </div>
+        <div class= "reciept-pic">
+            <img src= "img/atmreciept.jpg">
+        </div>
+       
+        <!-- buttons on side of homescreen -->
+        <div class="side-button">
+            <input type="button" id="left1" class="left1" value="" onclick="showClickedButton(this.value);"/>
+            <input type="button" id="left2" class="left2" value="" onclick="showClickedButton(this.value);"/>
+            <input type="button" id="left3" class="left3" value="" onclick="showClickedButton(this.value);"/>
+
+            <input type="button" id="right4" class="right4" value="" onclick="showClickedButton(this.value);" />
+            <input type="button" id="right5" class="right5" value="" onclick="showClickedButton(this.value);" />
+            <input type="button" id="right6" class="right6" value="" onclick="showClickedButton(this.value);" />  
+        </div>
+    </div>
+
+    <!-- numerical keyboard -->
+    <div class="number-keys">
+        <div class="keypad-1">
+            <input type="button" id="1" class="key" value="1" onclick="showClickedButton(this.value);"/> 
+            <input type="button" id="2" class="key" value="2" onclick="showClickedButton(this.value);" />
+            <input type="button" id="3" class="key" value="3" onclick="showClickedButton(this.value);" />
+            <input type="button" id="cancel" class="remove" value="CANCEL" onclick="cancelMode(this);" /> 
+        </div>
+        <div class="keypad-2">
+            <input type="button" id="4" class="key" value="4" onclick="showClickedButton(this.value);" />
+            <input type="button" id="5" class="key" value="5" onclick="showClickedButton(this.value);" />
+            <input type="button" id="6" class="key" value="6" onclick="showClickedButton(this.value);" />
+            <input type="button" id="clear" class="erase" value="CLEAR" onclick="clearMode(this);" /> 
+        </div>
+        <div class="keypad-3">
+            <input type="button" id="7" class="key" value="7" onclick="showClickedButton(this.value);" />
+            <input type="button" id="8" class="key" value="8" onclick="showClickedButton(this.value);" />
+            <input type="button" id="9" class="key" value="9" onclick="showClickedButton(this.value);" />
+            <input type="button" id="enter" class="send" value="ENTER" onclick="enterMode('this');"/>  
+        </div>
+        <div class="keypad-0">
+            <input type="button" id="0" class="key" value="&lt;" /> 
+            <input type="button" id="0" class="key" value="0" onclick="showClickedButton(this.value);" />
+            <input type="button" id="0" class="key" value="&gt;" /> 
+           
+        </div>
+    </div>
+    <script src="js/atm.js"></script>
+</body>
+</html>
+
