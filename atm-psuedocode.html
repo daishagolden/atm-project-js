@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ATM Psuedocode</title>
+
+    <style>
+        body{
+            background-color: darkcyan;
+        }
+        .indent {
+            margin-left: 30px;
+            list-style-type: square; 
+        }
+    </style>
+
+<body>
+    <h1>GOLDEN FANTASY ATM</h1>
+    <h2>TO DO</h2>
+    <ul>
+        <li>Select Language</li>
+        <li>Insert Card</li>
+        <li>Enter Pincode</li>
+        <li>Savings</li>
+        <li>Checkings</li>
+        <li>Atm Fees</li>
+        <li>Check Balance</li>
+        <li>Reciepts</li>
+    </ul>
+    <h2>Constants</h2>
+    <ul>
+        <li> Max Pin number 4</li>
+    </ul>
+
+       <h2>Select Language</h2>
+    <ul>
+        <li>Display "welcome to Fantasy Banking ATM"</li>
+        <li>Display "Select your language</li>
+        <li>Display " English, Spanish, French.."</li>
+        <li>IF </li> 
+            <li class= "indent">English is selcted</li>
+        <li>Display, Insert Card</li>
+        
+    </ul>
+
+    <h2>Insert Card</h2>
+    <ul>
+        <li>Display "Please insert your card"</li>
+        <li>Input, " your card"</li>
+        <li>IF</li>
+            <li class = "indent"> Card is invalid return to homescreen</li>
+        <li>ELSE</li>
+            <li class = "indent"> Go to the Next Screen</li>
+
+    </ul>
+
+ 
+    <h2>Pin Code Screen</h2>
+    <ul>
+        <li>Display, "Please enter your pincode."</li>
+        <li>IF </li>
+            <li class = "indent">Pin is not correct</li>
+        <li>Display, "Pin Code entered is incorrect"</li>
+        <li>ELSE </li>
+            <li class = "indent"> Go to Transaction Screen</li>
+    </ul>
+   
+    <h2>Transaction Screen</h2>
+    <ul>
+        <li>Display, "Checkings, Savings, Balance"</li>
+        <li>IF</li>
+        <li class = "indent"> Checkings or Savings selected go to money withdrawl amounts </li>
+        <li>ELSE</li>
+        <li class = "indent"> Continue to display Transaction Screen </li>
+        <li>IF</li>
+        <li class = "indent"> Balance is selected, display, "amount of money"</li>
+    </ul>
+
+    <h2>ATM Fees</h2>
+    <ul>
+        <li>IF</li>
+            <li class = "indent"> card belongs to bank go to Next Screen</li>
+        <li>ELSE </li>
+            <li class = "indent">Display, "The owner of this ATM charges an usage fee of $2.25</li>
+    </ul>
+
+    <h2>Savings Screen</h2>
+    <ul>
+        <li>Display, " how much money would you like to withdraw"</li>
+        <li class = "indent"> IF </li>
+        <li> Valid amount, Display "Only multiples of "$20, $40, $60, $80, $100"</li>
+        <li class = "indent">Else </li>
+        <li>, Display "Insufficient Funds"</li>
+    </ul>
+
+    <h2>Checkings Screen</h2>
+    <ul>
+        <li>Display, " how much money would you like to withdraw" </li> 
+        <li class = "indent"> IF </li>
+        <li> Valid amount, Display "Only multiples of "$20, $40, $60, $80, $100"</li>
+        <li class = "indent">Else </li>
+        <li>, Display "Insufficient Funds"</li>
+    </ul>
+
+    <h2>Check Balance Screen</h2>
+    <ul>
+        <li>Display, " total amount of money in checkings & savings account"</li>
+    </ul>
+
+    <h2>Reciepts</h2>
+    <ul>
+        <li>DISPLAY </li>
+            <li class = "indent">transaction had been completed, would you like a reciept ?</li>
+        
+        <li> IF </li>
+            <li class="indent"> yes, printout reciept</li>
+
+        <li>ELSE</li>
+            <li class = "indent">Return to Main Screen </li>
+    </ul>
+    
+        
+</body>
+</html>
